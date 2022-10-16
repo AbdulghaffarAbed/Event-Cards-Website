@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create Event Page</title>
+    <link rel="stylesheet" href="createEventPage.css">
+</head>
+
+<body onload="updateOrNew()">
+    <header class="navBar" id="navBar">
+        <span id="title">Create/Edit Event</span>
+    </header>
+
+    <section id="bodySection">
+
+        <aside id="asideListForm">
+
+            <div class="listDiv" id="listDiv"   onclick="openEventTask()">
+                List
+            </div>
+
+            <div class="formDiv" id="formDiv"  onclick="openCreateEventPage()">
+                Form
+            </div>
+
+        </aside>
+
+        <section class="editWindow" id="editWindow">
+
+            <form class="cardFields" class="cardFields" name="cardField" onsubmit="getFormData()">
+
+                <div class="nameDiv">
+                    <label for="nameField" class="name">Name: </label>
+                    <input type="text" id="nameField" class="nameField" name="nameField"  >
+                </div>
+
+                <div class="descDiv">
+                    <label for="descriptionTextArea" class="description">Description: </label>
+                    <textarea name="description" id="descriptionTextArea" cols="30" rows="10" label="Write something about your event..."></textarea>
+                </div>
+
+                <div class="dateDiv">
+                    <label for="dateField" class="date">Date: </label>
+                    <input type="date" id="dateField" class="dateField" name="dateField" >
+
+                </div>
+
+                <div class="cardButtons" id="cardButtons">
+                    <div class="appendDiv"></div>
+                    <div class="buttonsDiv">
+                        <button id="cancelButton" onclick="openEventTask()">Cancel</button>
+                        <input type="submit" id="saveOrAddButton" value="Add">
+                    </div>
+
+                </div>
+            </form>
+
+        </section>
+
+    </section>
+
+    <p id="testpar"></p>
+
+    <script src="createEventPage.js"></script>
+    
+</body>
+
+</html>

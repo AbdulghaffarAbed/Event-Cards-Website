@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+#navBar {
+    background-color: rgb(31, 34, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+#title {
+    font-size: 29px;
+    color: white;
+    margin-left: 1.5%;
+    
+}
+
+#bodySection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: inherit;
+    width: 100%;
+    background-color: rgb(227, 223, 223);
+}
+
+#asideListForm {
+    background-color: rgb(120, 189, 235);
+    height: 100%;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listDiv,
+.formDiv {
+    background-color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.listDiv {
+    height: 34%;
+    color:black;
+}
+
+.formDiv {
+    height: 65%;
+    background-color: #FFA32D;
+
+}
+
+
+.formDiv:hover {
+    background-color: #e98503;
+    
+}
+
+.listDiv:hover {
+    background-color:  #e0dfdf ;
+}
+
+/*
+* Style manipulate event card window
+*/
+
+.editWindow{
+    
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardFields{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    
+}
+.nameDiv, .dateDiv{
+    height: 15%;
+}
+.nameDiv , .descDiv, .dateDiv {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+   
+}
+.name, .description, .date{
+    width: 40%;
+    font-size: 21px;
+    padding-left: 15%;
+}
+
+#descriptionTextArea, #dateField , #nameField{
+    width: 55%;
+    border-radius: 5px;
+    padding: 1%;
+    border-width: 1px;
+    
+    
+    
+}
+
+.cardButtons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 12%;
+    
+}
+
+.buttonsDiv{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#cancelButton, #saveOrAddButton{
+    font-size: 15px;
+    width: 45%;
+    height: 65%;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: aliceblue;
+}
+#cancelButton:hover{
+    border-color: red;
+}
+
+#saveOrAddButton{
+    background-color: rgb(75, 233, 75);
+    color: white;
+}
+#saveOrAddButton:hover{
+    border-color: rgb(128, 123, 123);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Event Website</title>
+    <link rel="stylesheet" href="eventTask.css">
+</head>
+
+<body onload="updateCards()">
+
+    <header class="navBar" id="navBar">
+        <span id="title">Events</span>
+        <button id="newButton" style="cursor: pointer;" onclick="openCreateEventPage()">+ New</button>
+    </header>
+
+    <section id="bodySection">
+        <aside id="asideListForm">
+            <div class="listDiv" id="listDiv" style="cursor: pointer;" onclick="openEventTask()">
+                List
+            </div>
+            <div class="formDiv" id="formDiv" style="cursor: pointer;" onclick="openCreateEventPage()">
+                Form
+            </div>
+        </aside>
+        <section class="cardSections" id="cardSections" >
+           
+            
+        </section>
+    </section>
+    <script src="eventTask.js"></script>
+  
+</body>
+
+</html>
