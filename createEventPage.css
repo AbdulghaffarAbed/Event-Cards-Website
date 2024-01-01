@@ -28,11 +28,9 @@ body {
     align-items: center;
     height: inherit;
     width: 100%;
-    background-color: rgb(227, 223, 223);
 }
 
 #asideListForm {
-    background-color: rgb(120, 189, 235);
     height: 100%;
     width: 18%;
     display: flex;
