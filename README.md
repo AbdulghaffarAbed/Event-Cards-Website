@@ -9,6 +9,8 @@ The technologies used in this task (HTML, CSS, JS) all pure without any framewor
 This page can be opened by pressing on the Form button in the left bar or by pressing on the +New button in the page header.
 The page contains a form that enable the user to insert the event information and puplish it on the list by clicking on the Add button.
 
+![Alt text](https://github.com/AbdulghaffarAbed/Event-Cards-Website/blob/master/UI%20images/Add%20new%20Event%20card.PNG)
+
 
 ## List All The Events Cards
 
@@ -19,3 +21,4 @@ This page shows all the events created by a user where the color of each event r
 2. past => background color Red
 3. future => background color purple
 
+![Alt text](https://github.com/AbdulghaffarAbed/Event-Cards-Website/blob/master/UI%20images/Event%20Cards%20List.PNG)
